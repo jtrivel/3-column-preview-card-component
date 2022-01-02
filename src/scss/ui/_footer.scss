@@ -1,0 +1,13 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.footer {
+  font-size: 1.4rem;
+  text-align: center;
+  color: v.$cyandBg;
+
+  &__link {
+    text-decoration: none;
+    color: v.$orangeBg;    
+  }
+}
